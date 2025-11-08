@@ -1,11 +1,32 @@
-📌 Submission Details
+# 🌾 AgriYield Predictor — Forecasting Crop Yield using Environmental and Soil Data
 
-1. Fork this repository to your own GitHub account, naming it AI_AgriYield_Predictor-[YourName] (replace [YourName] with your actual name).
+## 📌 Project Aim
+To predict agricultural crop yield using environmental and soil data with AI-based regression models.
 
-2. Create a folder with your name inside your forked repo and place all your work (code, dataset links, results, and a README).
+## 🧹 Preprocessing & EDA
+- Handled missing values and duplicates.
+- Normalized numerical columns (Rainfall, Fertilizer, Pesticide).
+- Encoded categorical features (Crop, Season, State).
+- Performed detailed EDA with correlation heatmap, crop yield distribution, and crop frequency plots.
 
-3. Make regular and meaningful commits for every milestone.
+## 🤖 Model Used
+- Random Forest Regressor (Best performing model)
+- Metrics:
+  - **R² Score:** 0.89  
+  - **MAE:** 0.12  
 
-4. Push your changes to your forked repository or upload your work manually.
+## 🚀 Deployment
+Deployed on Streamlit
+Link: https://smartyield-uwwl4w8xniqeuvn2w889dx.streamlit.app/
 
-5. Update your repository at every milestone to reflect your progress.
+## 📂 Dataset
+Contains features like:
+- Area
+- Production
+- Annual Rainfall
+- Fertilizer
+- Pesticide
+- Crop
+- Season
+- State
+- Yield (Target)
