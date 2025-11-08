@@ -1,19 +1,16 @@
-## 🚀 Deployment
+🚀 Deployment
 
 The **AgriYield Predictor** has been deployed in Streamlit for interactive use.
 
 👉 **Live Demo:** https://smartyield-uwwl4w8xniqeuvn2w889dx.streamlit.app/
 
 
-## 🌾 Dashboard Overview — Smart Crop Yield Predictor
+🌾 Dashboard Overview — Smart Crop Yield Predictor
 
 The web dashboard is designed with **four main interactive sections**, each serving a distinct purpose to help users analyze, predict, and plan for better agricultural outcomes.
 
 
----
-
-
-### 🧠 **1️⃣ Predict Yield**
+🧠 **1️⃣ Predict Yield**
 
 This section allows users to **predict the crop yield** based on specific inputs.
 
@@ -23,9 +20,9 @@ This section allows users to **predict the crop yield** based on specific inputs
 
 ✅ *Purpose:* To provide **real-time AI-based yield prediction** using trained data.
 
----
 
-### 📊 **2️⃣ Visualization**
+
+📊 **2️⃣ Visualization**
 
 This section focuses on **exploring insights and patterns** in the dataset visually.
 
@@ -38,9 +35,8 @@ This section focuses on **exploring insights and patterns** in the dataset visua
 
 ✅ *Purpose:* To give a **visual understanding of trends and data relationships** in the agricultural dataset.
 
----
 
-### 📑 **3️⃣ Download Report**
+📑 **3️⃣ Download Report**
 
 This feature allows users to **download a detailed report** of the analysis or predictions made.
 
@@ -49,9 +45,9 @@ This feature allows users to **download a detailed report** of the analysis or p
 
 ✅ *Purpose:* To make the results **portable and shareable** for farmers, researchers, or policymakers.
 
----
 
-### 🌿 **4️⃣ Crop Suggestion Helper**
+
+🌿 **4️⃣ Crop Suggestion Helper**
 
 This is a **smart recommendation system** that suggests the best crops to grow.
 
