@@ -473,6 +473,12 @@ def show_login():
 def main_app():
     st.markdown(f"<h3 style='text-align:center;'>Welcome, {st.session_state.get('user','Guest')} 👋</h3>", unsafe_allow_html=True)
     col1, col2, col3, col4 = st.columns(4)
+    # Show all registered users (for admin view)
+    st.markdown("### 👥 Registered Users")
+    users_df = load_users()
+    st.write("Total Users:", len(users_df))
+    st.dataframe(users_df)
+
     with col1:
         if st.button("🌾 Predict Yield"):
             st.session_state['page'] = "predict"
